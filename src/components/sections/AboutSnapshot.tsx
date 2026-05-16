@@ -31,7 +31,7 @@ export function AboutSnapshot() {
           </h2>
           <div className="relative mt-6 space-y-5 text-base leading-8 text-[#4B463D]">
             <p>
-              Dee Art Modulars and Interiors creates residential and commercial interiors that feel refined, functional and deeply personal. From the first layout to the final handle, every detail is shaped for real life.
+              Dee-ART Modulars and Interiors creates residential and commercial interiors that feel refined, functional and deeply personal. From the first layout to the final handle, every detail is shaped for real life.
             </p>
             <p>
               Our Hyderabad team blends architectural thinking, modular precision and site execution discipline to deliver spaces that stay beautiful long after handover.

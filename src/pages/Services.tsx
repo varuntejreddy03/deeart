@@ -8,14 +8,14 @@ export default function Services() {
   return (
     <>
       <Seo
-        title="Interior Design Services in Hyderabad | Dee Art Modulars and Interiors"
-        description="Explore modular kitchens, wardrobes, living room interiors, bedroom interiors, office interiors, turnkey projects and home automation in Hyderabad."
+        title="Interior Design Services in Hyderabad | Dee-ART Modulars and Interiors"
+        description="Explore modular kitchens, wardrobes, living room interiors, bedroom interiors, office interiors, turnkey projects and home automation by Dee-ART in Hyderabad."
         path="/services"
       />
       <PageHero
         eyebrow="Our Services"
         title="Nine Ways To Shape A Better Interior"
-        description="From modular furniture to turnkey delivery, Dee Art brings every critical interior service under one premium design process."
+        description="From modular furniture to turnkey delivery, Dee-ART brings every critical interior service under one premium design process."
         image={images.hero}
       />
       <ServicesGrid compact />

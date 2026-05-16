@@ -54,7 +54,7 @@ export function ContactForm() {
     await new Promise((resolve) => window.setTimeout(resolve, 800));
     setIsSubmitting(false);
     toast.success("Consultation request received", {
-      description: `Thanks ${values.name}. Dee Art will get back to you shortly.`
+      description: `Thanks ${values.name}. Dee-ART will get back to you shortly.`
     });
     reset();
   };

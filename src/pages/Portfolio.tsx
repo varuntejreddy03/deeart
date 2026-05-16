@@ -26,8 +26,8 @@ export default function Portfolio() {
   return (
     <>
       <Seo
-        title="Interior Design Portfolio | Dee Art Modulars and Interiors Hyderabad"
-        description="Browse Dee Art Modulars and Interiors portfolio across kitchens, bedrooms, living rooms, offices and full home interiors in Hyderabad."
+        title="Interior Design Portfolio | Dee-ART Modulars and Interiors Hyderabad"
+        description="Browse Dee-ART Modulars and Interiors portfolio across kitchens, bedrooms, living rooms, offices and full home interiors in Hyderabad."
         path="/portfolio"
       />
       <PageHero
@@ -98,7 +98,7 @@ export default function Portfolio() {
       </section>
 
       <Lightbox open={lightboxIndex >= 0} close={() => setLightboxIndex(-1)} slides={slides} index={lightboxIndex < 0 ? 0 : lightboxIndex} />
-      <CTABanner title="Your Project Deserves A Portfolio-Level Finish" subtitle="Share your requirements and Dee Art will help shape the right design direction." />
+      <CTABanner title="Your Project Deserves A Portfolio-Level Finish" subtitle="Share your requirements and Dee-ART will help shape the right design direction." />
     </>
   );
 }

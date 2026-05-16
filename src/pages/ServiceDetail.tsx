@@ -22,8 +22,8 @@ export default function ServiceDetail() {
   return (
     <>
       <Seo
-        title={`${service.name} in Hyderabad | Dee Art Modulars and Interiors`}
-        description={`${service.longDescription} Dee Art Modulars and Interiors provides premium ${service.name.toLowerCase()} in Hyderabad.`}
+        title={`${service.name} in Hyderabad | Dee-ART Modulars and Interiors`}
+        description={`${service.longDescription} Dee-ART Modulars and Interiors provides premium ${service.name.toLowerCase()} in Hyderabad.`}
         path={`/services/${service.slug}`}
       />
       <PageHero eyebrow="Service Detail" title={service.name} description={service.longDescription} image={service.image} />
@@ -120,7 +120,7 @@ export default function ServiceDetail() {
         </div>
       </section>
 
-      <CTABanner title={`Plan Your ${service.shortName} With Dee Art`} subtitle="Book a focused consultation and get a clear direction for layout, finishes, budget and timeline." />
+      <CTABanner title={`Plan Your ${service.shortName} With Dee-ART`} subtitle="Book a focused consultation and get a clear direction for layout, finishes, budget and timeline." />
     </>
   );
 }

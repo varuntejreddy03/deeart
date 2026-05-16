@@ -63,11 +63,6 @@ export function HeroSection() {
                 </Link>
               </Button>
             </MagneticButton>
-            <MagneticButton>
-              <Button asChild size="lg" variant="secondary">
-                <Link to="/contact">Book Free Consultation</Link>
-              </Button>
-            </MagneticButton>
           </motion.div>
 
           <motion.div

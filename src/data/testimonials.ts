@@ -21,6 +21,6 @@ export const testimonials = [
     name: "Pradeep K.",
     project: "Office Interior",
     quote:
-      "Our office finally reflects our brand. Dee Art balanced a warm client lounge with practical work zones for the team."
+      "Our office finally reflects our brand. Dee-ART balanced a warm client lounge with practical work zones for the team."
   }
 ];

@@ -20,8 +20,8 @@ export default function About() {
   return (
     <>
       <Seo
-        title="About Dee Art Modulars and Interiors | Hyderabad Interior Designers"
-        description="Meet Dee Art Modulars and Interiors, a Hyderabad interior design company with 20+ years of experience in modular and turnkey interiors."
+        title="About Dee-ART Modulars and Interiors | Hyderabad Interior Designers"
+        description="Meet Dee-ART Modulars and Interiors, a Hyderabad interior design company with 20+ years of experience in modular and turnkey interiors."
         path="/about"
       />
       <PageHero
@@ -43,7 +43,7 @@ export default function About() {
             </h2>
             <div className="mt-6 space-y-5 leading-8 text-[#4B463D]">
               <p>
-                Dee Art Modulars and Interiors is a premium interior design company based in Gachibowli, Hyderabad. We bring together creative design, modular engineering and detail-oriented execution for spaces that feel composed and functional.
+                Dee-ART Modulars and Interiors is a premium interior design company based in Gachibowli, Hyderabad. We bring together creative design, modular engineering and detail-oriented execution for spaces that feel composed and functional.
               </p>
               <p>
                 Our work spans modular kitchens, wardrobes, living rooms, bedrooms, commercial interiors, automation and complete turnkey projects. Every project begins with a clear brief and ends with a polished handover.
@@ -94,7 +94,7 @@ export default function About() {
 
       <StatsCounter />
       <ProcessTimeline detailed />
-      <CTABanner title="Let Your Space Work Harder And Look Better" subtitle="Speak with Dee Art about a modular, turnkey or commercial interior project in Hyderabad." />
+      <CTABanner title="Let Your Space Work Harder And Look Better" subtitle="Speak with Dee-ART about a modular, turnkey or commercial interior project in Hyderabad." />
     </>
   );
 }

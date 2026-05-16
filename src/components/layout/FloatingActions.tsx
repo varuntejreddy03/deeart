@@ -34,7 +34,7 @@ export function FloatingActions() {
         href={whatsappUrl}
         target="_blank"
         rel="noreferrer"
-        aria-label="Message Dee Art on WhatsApp"
+        aria-label="Message Dee-ART on WhatsApp"
         className="whatsapp-button whatsapp-pulse grid h-14 w-14 place-items-center rounded-full bg-[#25D366] text-white shadow-2xl shadow-black/40 transition-transform hover:scale-105"
       >
         <MessageCircle className="h-6 w-6" />

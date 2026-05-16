@@ -32,10 +32,10 @@ export function Navbar() {
         )}
       >
         <nav className="container-lux flex h-full items-center justify-between gap-6">
-          <Link to="/" className="group flex max-w-[140px] items-center gap-3 md:max-w-none" aria-label="Dee Art home">
+          <Link to="/" className="group flex max-w-[140px] items-center gap-3 md:max-w-none" aria-label="Dee-ART home">
             <img src="/logo.svg" alt="" className="h-10 w-10 shrink-0" />
             <span className="leading-none">
-              <span className="block font-serif text-[18px] font-bold text-[#FDFCFA]">DEE ART</span>
+              <span className="block font-serif text-[18px] font-bold text-[#FDFCFA]">Dee-A<span style={{ color: "#E53535" }}>R</span>T</span>
               <span className="hidden font-mono text-[9px] uppercase tracking-[0.2em] text-[#C8A96E] sm:block">Modulars & Interiors</span>
             </span>
           </Link>
@@ -58,7 +58,7 @@ export function Navbar() {
           </div>
 
           <div className="hidden items-center gap-3 lg:flex">
-            <Button asChild variant="ghost" size="icon" aria-label="Call Dee Art">
+            <Button asChild variant="ghost" size="icon" aria-label="Call Dee-ART">
               <a href={`mailto:${site.email}`}>
                 <Phone className="h-4 w-4" />
               </a>
@@ -88,7 +88,7 @@ export function Navbar() {
               <div className="flex items-center justify-between">
                 <Link to="/" className="flex max-w-[140px] items-center gap-3">
                   <img src="/logo.svg" alt="" className="h-10 w-10" />
-                  <span className="font-serif text-[18px] font-bold">DEE ART</span>
+                  <span className="font-serif text-[18px] font-bold text-[#FDFCFA]">Dee-A<span style={{ color: "#E53535" }}>R</span>T</span>
                 </Link>
                 <Button variant="secondary" size="icon" className="text-[#C8A96E]" onClick={() => setIsOpen(false)} aria-label="Close navigation menu">
                   <X className="h-6 w-6" />

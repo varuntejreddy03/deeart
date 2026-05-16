@@ -9,7 +9,7 @@ type CTABannerProps = {
   subtitle?: string;
 };
 
-export function CTABanner({ title = "Ready to Transform Your Space?", subtitle = "Book a free consultation with our design team today." }: CTABannerProps) {
+export function CTABanner({ title = "Ready to Transform Your Space?", subtitle = "Book a consultation with our design team today." }: CTABannerProps) {
   return (
     <section className="cta-banner relative isolate overflow-hidden py-24">
       <img src={images.office} alt="" className="absolute inset-0 -z-20 h-full w-full object-cover" loading="lazy" />
@@ -18,7 +18,7 @@ export function CTABanner({ title = "Ready to Transform Your Space?", subtitle =
         <span key={left} className="particle" style={{ left: `${left}%`, top: `${28 + index * 12}%`, animationDelay: `${index * 0.7}s` }} />
       ))}
       <div className="container-lux text-center" data-reveal>
-        <p className="eyebrow justify-center">Start With Dee Art</p>
+        <p className="eyebrow justify-center">Start With Dee-ART</p>
         <h2 className="heading-md mx-auto mt-4 max-w-4xl text-[#FDFCFA]" data-word-reveal>
           {title}
         </h2>
@@ -27,7 +27,7 @@ export function CTABanner({ title = "Ready to Transform Your Space?", subtitle =
           <MagneticButton>
             <Button asChild size="lg">
               <Link to="/contact">
-                Get Free Quote <ArrowUpRight className="h-5 w-5" />
+                Get a Quote <ArrowUpRight className="h-5 w-5" />
               </Link>
             </Button>
           </MagneticButton>

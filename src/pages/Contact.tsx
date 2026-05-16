@@ -9,8 +9,8 @@ export default function Contact() {
   return (
     <>
       <Seo
-        title="Contact Us | Dee Art Modulars and Interiors Hyderabad"
-        description="Contact Dee Art Modulars and Interiors for premium interior design, modular kitchens, wardrobes and turnkey interiors in Hyderabad."
+        title="Contact Us | Dee-ART Modulars and Interiors Hyderabad"
+        description="Contact Dee-ART Modulars and Interiors for premium interior design, modular kitchens, wardrobes and turnkey interiors in Hyderabad."
         path="/contact"
       />
       <PageHero
@@ -24,7 +24,7 @@ export default function Contact() {
         <div className="container-lux grid gap-10 lg:grid-cols-[.8fr_1.2fr]">
           <aside className="space-y-6" data-reveal>
             <div>
-              <p className="eyebrow">Reach Dee Art</p>
+              <p className="eyebrow">Reach Dee-ART</p>
               <h2 className="heading-md mt-4 text-[#FDFCFA]" data-word-reveal>
                 Visit, Email Or Send A Project Brief
               </h2>
@@ -64,7 +64,7 @@ export default function Contact() {
 
             <div className="overflow-hidden rounded-lg border border-primary/18">
               <iframe
-                title="Dee Art Modulars and Interiors location map"
+                title="Dee-ART Modulars and Interiors location map"
                 src="https://www.google.com/maps?q=JSM%20Towers%20Gachibowli%20Hyderabad&output=embed"
                 className="h-80 w-full grayscale invert-[.85]"
                 loading="lazy"

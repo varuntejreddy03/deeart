@@ -1,6 +1,6 @@
 export const site = {
-  name: "Dee Art Modulars and Interiors",
-  shortName: "Dee Art",
+  name: "Dee-ART Modulars and Interiors",
+  shortName: "Dee-ART",
   tagline: "Where Creativity Meets Functionality",
   address: "JSM Towers, 6th Floor, Gachibowli, Hyderabad",
   email: "deeartmodularsandinteriors2026@gmail.com",

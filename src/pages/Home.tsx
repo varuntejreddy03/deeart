@@ -13,8 +13,8 @@ export default function Home() {
   return (
     <>
       <Seo
-        title="Interior Designers in Hyderabad | Dee Art Modulars and Interiors"
-        description="Premium modular kitchens, wardrobes, and full home interiors in Hyderabad. 20+ years of expertise. Book your free consultation today."
+        title="Interior Designers in Hyderabad | Dee-ART Modulars and Interiors"
+        description="Premium modular kitchens, wardrobes, and full home interiors in Hyderabad. 20+ years of expertise. Book your consultation today."
       />
       <HeroSection />
       <MarqueeBanner />

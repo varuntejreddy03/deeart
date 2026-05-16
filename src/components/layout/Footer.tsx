@@ -12,7 +12,7 @@ export function Footer() {
           <Link to="/" className="flex items-center gap-3">
             <img src="/logo.svg" alt="" className="h-12 w-12" />
             <span>
-              <span className="block font-serif text-3xl text-[#FDFCFA]">Dee Art</span>
+              <span className="block font-serif text-3xl text-[#FDFCFA]">Dee-A<span style={{ color: "#E53535" }}>R</span>T</span>
               <span className="text-xs uppercase tracking-[.18em] text-primary">Modulars & Interiors</span>
             </span>
           </Link>
@@ -111,7 +111,7 @@ export function Footer() {
       </div>
       <div className="border-t border-white/8 py-5">
         <div className="container-lux flex flex-col gap-2 text-xs text-[#8B877E] sm:flex-row sm:items-center sm:justify-between">
-          <p>© 2026 Dee Art Modulars and Interiors. All rights reserved.</p>
+          <p>© 2026 Dee-ART Modulars and Interiors. All rights reserved.</p>
           <p>Designed for premium residential and commercial interiors.</p>
         </div>
       </div>
