@@ -5,6 +5,7 @@ import { Toaster } from "sonner";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { FloatingActions } from "@/components/layout/FloatingActions";
+import { ScrollToTop } from "@/components/layout/ScrollToTop";
 import { SkeletonPage } from "@/components/ui/Skeleton";
 import { useLenis } from "@/hooks/useLenis";
 import { useGsapReveals } from "@/hooks/useGsapReveals";
@@ -52,6 +53,7 @@ export default function App() {
 
   return (
     <div className="site-shell">
+      <ScrollToTop />
       <Navbar />
       <AnimatedRoutes />
       <Footer />

@@ -2,7 +2,6 @@ import { ArrowUpRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/Button";
 import { MagneticButton } from "@/components/animations/MagneticButton";
-import { images } from "@/data/site";
 
 type CTABannerProps = {
   title?: string;
@@ -12,7 +11,7 @@ type CTABannerProps = {
 export function CTABanner({ title = "Ready to Transform Your Space?", subtitle = "Book a consultation with our design team today." }: CTABannerProps) {
   return (
     <section className="cta-banner relative isolate overflow-hidden py-24">
-      <img src={images.office} alt="" className="absolute inset-0 -z-20 h-full w-full object-cover" loading="lazy" />
+      <img src="/WhatsApp Image 2026-05-17 at 11.08.34 AM.jpeg" alt="" className="absolute inset-0 -z-20 h-full w-full object-cover" loading="lazy" />
       <div className="absolute inset-0 -z-10 bg-[#0F0E0C]/78" />
       {[18, 41, 64, 83].map((left, index) => (
         <span key={left} className="particle" style={{ left: `${left}%`, top: `${28 + index * 12}%`, animationDelay: `${index * 0.7}s` }} />

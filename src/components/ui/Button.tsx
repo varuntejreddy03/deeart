@@ -13,8 +13,8 @@ const buttonVariants = cva(
         secondary:
           "border-[1.5px] border-[rgba(200,169,110,0.5)] bg-transparent text-[#C8A96E] backdrop-blur hover:border-[#C8A96E] hover:bg-[rgba(200,169,110,0.08)]",
         ghost: "bg-transparent text-[#C8A96E] hover:bg-[rgba(200,169,110,0.08)] hover:text-[#C8A96E]",
-        outline: "border border-[#C8A96E] bg-transparent text-[#C8A96E] hover:bg-[#C8A96E] hover:text-[#0F0E0C]",
-        dark: "bg-[#0F0E0C] text-[#F5F0E8] hover:bg-[#1C1A16]"
+        outline: "border border-[#C8A96E] bg-transparent text-[#C8A96E] hover:bg-[#C8A96E] hover:text-[#0F0E0C] [.cream-section_&]:border-[#0F0E0C] [.cream-section_&]:text-[#0F0E0C] [.cream-section_&]:hover:bg-[#0F0E0C] [.cream-section_&]:hover:text-[#F5F0E8]",
+        dark: "bg-[#0F0E0C] !text-[#F5F0E8] hover:bg-[#1C1A16] hover:!text-[#F5F0E8]"
       },
       size: {
         sm: "h-9 px-4",

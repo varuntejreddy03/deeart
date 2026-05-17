@@ -32,15 +32,15 @@ export const stats = [
 ];
 
 export const images = {
-  hero: "https://images.unsplash.com/photo-1758448755927-e5c5ae14790c?auto=format&fit=crop&w=1400&q=82",
-  heroAlt: "https://images.unsplash.com/photo-1758448755969-8791367cf5c5?auto=format&fit=crop&w=900&q=82",
-  kitchen: "https://images.unsplash.com/photo-1772567733061-f7b44c0587b0?auto=format&fit=crop&w=1100&q=80",
-  kitchenWarm: "https://images.unsplash.com/photo-1699852676054-a55370ac4c7a?auto=format&fit=crop&w=1100&q=80",
-  living: "https://images.unsplash.com/photo-1772475329856-7c7de908b44e?auto=format&fit=crop&w=1200&q=80",
-  bedroom: "https://images.unsplash.com/photo-1758448755969-8791367cf5c5?auto=format&fit=crop&w=1200&q=80",
-  office: "https://images.unsplash.com/photo-1774953037913-af0cf688491a?auto=format&fit=crop&w=1200&q=80",
-  lobby: "https://images.unsplash.com/photo-1758448755927-e5c5ae14790c?auto=format&fit=crop&w=1200&q=80",
-  pageHero: "https://images.unsplash.com/photo-1772567733061-f7b44c0587b0?auto=format&fit=crop&w=1600&q=78"
+  hero: "/WhatsApp Image 2026-05-17 at 11.08.32 AM.jpeg",
+  heroAlt: "/WhatsApp Image 2026-05-17 at 11.08.34 AM (1).jpeg",
+  kitchen: "/WhatsApp Image 2026-05-17 at 11.08.33 AM.jpeg",
+  kitchenWarm: "/WhatsApp Image 2026-05-17 at 11.08.33 AM (1).jpeg",
+  living: "/WhatsApp Image 2026-05-17 at 11.08.34 AM (1).jpeg",
+  bedroom: "/WhatsApp Image 2026-05-17 at 11.08.34 AM (2).jpeg",
+  office: "/WhatsApp Image 2026-05-17 at 11.08.34 AM.jpeg",
+  lobby: "/WhatsApp Image 2026-05-17 at 11.08.34 AM (2).jpeg",
+  pageHero: "/WhatsApp Image 2026-05-17 at 11.08.32 AM.jpeg"
 };
 
 export const localBusinessSchema = {

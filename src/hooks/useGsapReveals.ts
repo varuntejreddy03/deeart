@@ -9,6 +9,7 @@ export function useGsapReveals() {
   const location = useLocation();
 
   useLayoutEffect(() => {
+    const scope = document.querySelector("main") ?? document.body;
     const ctx = gsap.context(() => {
       gsap.utils.toArray<HTMLElement>("[data-reveal]").forEach((element) => {
         gsap.fromTo(
@@ -53,7 +54,7 @@ export function useGsapReveals() {
           }
         );
       });
-    });
+    }, scope);
 
     const refresh = window.setTimeout(() => ScrollTrigger.refresh(), 80);
 

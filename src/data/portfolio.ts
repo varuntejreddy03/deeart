@@ -1,6 +1,4 @@
-import { images } from "./site";
-
-export type PortfolioCategory = "Kitchens" | "Bedrooms" | "Living" | "Office" | "Full Home";
+export type PortfolioCategory = "Kitchens" | "Bedrooms" | "Living" | "Office" | "Full Home" | "Dining";
 
 export type PortfolioProject = {
   id: string;
@@ -17,101 +15,77 @@ export type PortfolioProject = {
 
 export const portfolioProjects: PortfolioProject[] = [
   {
-    id: "gachibowli-marble-kitchen",
-    title: "Marble Island Kitchen",
-    location: "Gachibowli",
+    id: "modern-kitchen-bar",
+    title: "Modern Kitchen & Bar",
+    location: "Hyderabad",
     category: "Kitchens",
-    image: images.kitchen,
+    image: "/WhatsApp Image 2026-05-17 at 11.08.33 AM.jpeg",
     height: "medium",
-    area: "320 sq ft",
+    area: "350 sq ft",
     duration: "5 weeks",
     style: "Modern Luxe",
-    story: "A high-function kitchen planned around concealed storage, warm task lighting and a marble island for everyday hosting."
+    story: "A high-function kitchen with bar counter, planned around concealed storage, warm task lighting and premium finishes."
   },
   {
-    id: "kondapur-master-suite",
-    title: "Layered Master Suite",
-    location: "Kondapur",
-    category: "Bedrooms",
-    image: images.bedroom,
-    height: "tall",
-    area: "410 sq ft",
-    duration: "4 weeks",
-    style: "Hotel Calm",
-    story: "Soft upholstery, warm lighting and custom wardrobes shaped a private retreat with a quiet luxury mood."
-  },
-  {
-    id: "financial-district-office",
-    title: "Executive Office Lounge",
-    location: "Financial District",
-    category: "Office",
-    image: images.office,
-    height: "wide",
-    area: "2,200 sq ft",
-    duration: "8 weeks",
-    style: "Contemporary Commercial",
-    story: "Glass partitions, efficient workstations and hospitality-led lounge zones gave this office a polished client-facing presence."
-  },
-  {
-    id: "jubilee-hills-living",
-    title: "Warm Minimal Living",
-    location: "Jubilee Hills",
+    id: "warm-luxury-living",
+    title: "Warm Luxury Living",
+    location: "Gachibowli, Hyderabad",
     category: "Living",
-    image: images.living,
-    height: "medium",
+    image: "/WhatsApp Image 2026-05-17 at 11.08.34 AM (1).jpeg",
+    height: "tall",
     area: "520 sq ft",
     duration: "6 weeks",
     style: "Warm Minimal",
     story: "A clean media wall, generous sectional seating and natural wood details created a bright but grounded living room."
   },
   {
-    id: "kokapet-full-home",
-    title: "Turnkey Villa Interior",
-    location: "Kokapet",
+    id: "open-plan-living",
+    title: "Open Plan Living Space",
+    location: "Kondapur, Hyderabad",
     category: "Full Home",
-    image: images.lobby,
-    height: "tall",
-    area: "4,800 sq ft",
-    duration: "14 weeks",
-    style: "Luxury Turnkey",
-    story: "A complete villa interior with coordinated kitchen, ceiling, bedrooms, wardrobes and final styling."
-  },
-  {
-    id: "hitech-city-smart-home",
-    title: "Smart Apartment Interior",
-    location: "HITEC City",
-    category: "Full Home",
-    image: images.hero,
-    height: "medium",
+    image: "/WhatsApp Image 2026-05-17 at 11.08.34 AM (2).jpeg",
+    height: "wide",
     area: "1,850 sq ft",
     duration: "9 weeks",
     style: "Smart Modern",
     story: "Integrated automation, layered lighting and custom storage turned a compact apartment into an efficient premium home."
   },
   {
-    id: "madhapur-dining-kitchen",
-    title: "Dining Kitchen Extension",
-    location: "Madhapur",
-    category: "Kitchens",
-    image: images.kitchenWarm,
-    height: "wide",
-    area: "460 sq ft",
-    duration: "6 weeks",
-    style: "Warm Contemporary",
-    story: "A dining-linked kitchen with black cabinetry, brass hardware and a warm island arrangement for family gatherings."
-  },
-  {
-    id: "nanakramguda-bedroom",
-    title: "Soft Gold Bedroom",
-    location: "Nanakramguda",
-    category: "Bedrooms",
-    image: images.heroAlt,
+    id: "elegant-dining",
+    title: "Elegant Dining Interior",
+    location: "Hyderabad",
+    category: "Dining",
+    image: "/WhatsApp Image 2026-05-17 at 11.08.35 AM.jpeg",
     height: "medium",
-    area: "360 sq ft",
+    area: "280 sq ft",
     duration: "4 weeks",
     style: "Classic Modern",
-    story: "A layered bedroom composition with decorative mirrors, statement lighting and a highly usable wardrobe wall."
+    story: "A refined dining space with statement lighting, warm wood tones and elegant seating for family gatherings."
+  },
+  {
+    id: "display-unit-showcase",
+    title: "Custom Display Unit",
+    location: "Gachibowli",
+    category: "Living",
+    image: "/WhatsApp Image 2026-05-17 at 11.08.33 AM (1).jpeg",
+    height: "tall",
+    area: "180 sq ft",
+    duration: "3 weeks",
+    style: "Premium Modular",
+    story: "A tall display cabinet with integrated lighting showcasing craftsmanship and attention to detail."
+  },
+  {
+    id: "living-room-beige",
+    title: "Beige Luxury Living",
+    location: "Hyderabad",
+    category: "Living",
+    image: "/WhatsApp Image 2026-05-17 at 11.08.32 AM.jpeg",
+    height: "medium",
+    area: "480 sq ft",
+    duration: "6 weeks",
+    style: "Luxury Contemporary",
+    story: "Marble flooring, neutral tones and layered lighting create a sophisticated living space with timeless appeal."
   }
 ];
 
-export const portfolioFilters = ["All", "Kitchens", "Bedrooms", "Living", "Office", "Full Home"] as const;
+export const portfolioFilters = ["All", "Kitchens", "Living", "Full Home", "Dining"] as const;

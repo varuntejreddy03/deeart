@@ -16,10 +16,10 @@ export function AboutSnapshot() {
       <div className="container-lux grid items-center gap-12 lg:grid-cols-[.9fr_1fr]">
         <div className="about-collage relative min-h-[520px]" data-reveal>
           <div className="absolute left-0 top-0 w-[72%] overflow-hidden rounded-lg border border-[#C8A96E]/50">
-            <img src={images.kitchenWarm} alt="Modern kitchen with warm finishes" className="aspect-[4/5] h-full w-full object-cover" loading="lazy" />
+            <img src="/WhatsApp Image 2026-05-17 at 11.08.33 AM (1).jpeg" alt="Custom display unit by Dee-ART Hyderabad" className="aspect-[4/5] h-full w-full object-cover" loading="lazy" />
           </div>
           <div className="absolute bottom-0 right-0 w-[58%] overflow-hidden rounded-lg border-8 border-[#F5F0E8] shadow-2xl">
-            <img src={images.living} alt="Modern living room with custom TV unit" className="aspect-[4/5] h-full w-full object-cover" loading="lazy" />
+            <img src="/WhatsApp Image 2026-05-17 at 11.08.33 AM (2).jpeg" alt="Modern living room interior by Dee-ART Hyderabad" className="aspect-[4/5] h-full w-full object-cover" loading="lazy" />
           </div>
         </div>
 
@@ -45,7 +45,7 @@ export function AboutSnapshot() {
               </div>
             ))}
           </div>
-          <Button asChild variant="dark" className="about-story-button relative mt-8 border border-[#0F0E0C] bg-[#0F0E0C] text-[#FDFCFA] hover:bg-black hover:text-[#FDFCFA]">
+          <Button asChild variant="dark" className="about-story-button relative mt-8 border border-[#0F0E0C] bg-[#0F0E0C] !text-[#FDFCFA] hover:bg-black hover:!text-[#FDFCFA]">
             <Link to="/about">
               Discover Our Story <ArrowUpRight className="h-4 w-4" />
             </Link>

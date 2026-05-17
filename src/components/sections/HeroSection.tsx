@@ -87,7 +87,7 @@ export function HeroSection() {
           transition={{ delay: 1.7, duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
         >
           <div className="hero-main-image gold-border absolute inset-x-6 top-0 h-[78%] overflow-hidden rounded-[0_1.5rem_1.5rem_1.5rem] lg:inset-x-0">
-            <img src={images.hero} alt="Luxury kitchen and dining interior with marble finishes" className="h-full w-full object-cover" loading="eager" />
+            <img src={images.hero} alt="Luxury living room interior by Dee-ART Hyderabad" className="h-full w-full object-cover" loading="eager" />
             <div className="absolute inset-0 bg-gradient-to-t from-[#0F0E0C]/72 via-transparent to-transparent" />
           </div>
           <motion.div
@@ -100,7 +100,7 @@ export function HeroSection() {
             <span className="text-xs font-medium">Award-Winning Design Team</span>
           </motion.div>
           <div className="hero-secondary-image absolute bottom-0 left-0 w-[58%] overflow-hidden rounded-lg border border-primary/40 shadow-2xl shadow-black/40">
-            <img src={images.heroAlt} alt="Luxury bedroom interior with chandelier" className="aspect-[4/3] w-full object-cover" loading="lazy" />
+            <img src={images.heroAlt} alt="Warm luxury living room by Dee-ART Hyderabad" className="aspect-[4/3] w-full object-cover" loading="lazy" />
           </div>
           <div className="hero-experience-badge glass-card absolute bottom-8 right-2 rounded-lg px-5 py-4">
             <div className="flex items-center gap-2 text-primary">

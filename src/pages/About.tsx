@@ -34,7 +34,7 @@ export default function About() {
       <section className="cream-section section-padding">
         <div className="container-lux grid items-center gap-12 lg:grid-cols-[.9fr_1fr]">
           <div className="overflow-hidden rounded-lg border border-[#C8A96E]/45 shadow-2xl" data-reveal>
-            <img src={images.lobby} alt="Luxury interior detail" className="aspect-[4/5] h-full w-full object-cover" loading="lazy" />
+            <img src={images.lobby} alt="Interior design by Dee-ART Hyderabad" className="aspect-[4/5] h-full w-full object-cover" loading="lazy" />
           </div>
           <div data-reveal>
             <p className="eyebrow text-[#A88540]">Who We Are</p>

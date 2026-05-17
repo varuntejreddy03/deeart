@@ -9,7 +9,7 @@ export function Footer() {
   return (
     <footer className="border-t border-primary/15 bg-[#0A0908]">
       <div className="container-lux grid gap-10 py-16 md:grid-cols-2 lg:grid-cols-[1.2fr_.7fr_1fr_1.1fr]">
-        <div data-reveal>
+        <div>
           <Link to="/" className="flex items-center gap-3">
             <LogoText size="lg" />
           </Link>
@@ -28,7 +28,7 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="hidden md:block" data-reveal>
+        <div className="hidden md:block">
           <h3 className="mb-5 font-serif text-2xl text-primary">Quick Links</h3>
           <ul className="grid gap-3 text-sm text-[#C4C2BA]">
             {navLinks.map((link) => (
@@ -41,7 +41,7 @@ export function Footer() {
           </ul>
         </div>
 
-        <details className="footer-accordion md:hidden" data-reveal>
+        <details className="footer-accordion md:hidden">
           <summary className="flex min-h-11 cursor-pointer list-none items-center justify-between border-b border-primary/18 py-3 font-serif text-2xl text-primary">
             Quick Links
             <ChevronDown className="h-4 w-4 transition-transform duration-300" />
@@ -57,7 +57,7 @@ export function Footer() {
           </ul>
         </details>
 
-        <div className="hidden md:block" data-reveal>
+        <div className="hidden md:block">
           <h3 className="mb-5 font-serif text-2xl text-primary">Services</h3>
           <ul className="grid gap-3 text-sm text-[#C4C2BA]">
             {services.map((service) => (
@@ -70,7 +70,7 @@ export function Footer() {
           </ul>
         </div>
 
-        <details className="footer-accordion md:hidden" data-reveal>
+        <details className="footer-accordion md:hidden">
           <summary className="flex min-h-11 cursor-pointer list-none items-center justify-between border-b border-primary/18 py-3 font-serif text-2xl text-primary">
             Services
             <ChevronDown className="h-4 w-4 transition-transform duration-300" />
@@ -86,7 +86,7 @@ export function Footer() {
           </ul>
         </details>
 
-        <div data-reveal>
+        <div>
           <h3 className="mb-5 font-serif text-2xl text-primary">Contact</h3>
           <div className="space-y-4 text-sm leading-7 text-[#C4C2BA]">
             <p className="flex gap-3">
