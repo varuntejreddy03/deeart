@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { ChevronDown, Facebook, Instagram, Mail, MapPin, MoveUpRight } from "lucide-react";
 import { Button } from "@/components/ui/Button";
+import { LogoText } from "@/components/ui/LogoText";
 import { navLinks, site } from "@/data/site";
 import { services } from "@/data/services";
 
@@ -10,11 +11,7 @@ export function Footer() {
       <div className="container-lux grid gap-10 py-16 md:grid-cols-2 lg:grid-cols-[1.2fr_.7fr_1fr_1.1fr]">
         <div data-reveal>
           <Link to="/" className="flex items-center gap-3">
-            <img src="/logo.svg" alt="" className="h-12 w-12" />
-            <span>
-              <span className="block font-serif text-3xl text-[#FDFCFA]">Dee-A<span style={{ color: "#E53535" }}>R</span>T</span>
-              <span className="text-xs uppercase tracking-[.18em] text-primary">Modulars & Interiors</span>
-            </span>
+            <LogoText size="lg" />
           </Link>
           <p className="mt-5 max-w-sm text-sm leading-7 text-[#C4C2BA]">{site.tagline}. Premium modular interiors for homes, villas and commercial spaces in Hyderabad.</p>
           <div className="mt-6 flex gap-3">
