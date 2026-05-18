@@ -5,9 +5,9 @@ type LogoTextProps = {
 
 export function LogoText({ size = "md", light = true }: LogoTextProps) {
   const sizes = {
-    sm: { main: 22, sub: 7, gap: 2 },
-    md: { main: 30, sub: 9, gap: 4 },
-    lg: { main: 40, sub: 11, gap: 5 }
+    sm: { main: 28, sub: 8, gap: 3 },
+    md: { main: 36, sub: 10, gap: 4 },
+    lg: { main: 48, sub: 12, gap: 5 }
   };
 
   const s = sizes[size];
