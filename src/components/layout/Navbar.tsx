@@ -29,11 +29,17 @@ export function Navbar() {
         transition={{ duration: 0.65, ease: "easeOut", delay: 0.2 }}
         className={cn(
           "fixed inset-x-0 top-0 z-50 h-[72px] transition-all duration-300 ease-in-out",
-          isScrolled ? "border-b border-primary/15 bg-[rgba(15,14,12,0.85)] shadow-2xl shadow-black/20 backdrop-blur-[16px]" : "bg-transparent"
+          isScrolled ? "border-b border-primary/15 bg-[#000000] shadow-2xl shadow-black/20" : "bg-[#000000]"
         )}
       >
         <nav className="container-lux flex h-full items-center justify-between gap-6">
-          <Link to="/" className="group flex items-center gap-3" aria-label="Dee-ART home">
+          <Link
+            to="/"
+            className="logo-badge group relative flex items-center gap-3 rounded-md border border-[rgba(212,175,55,0.2)] bg-[rgba(0,0,0,0.55)] px-3.5 py-2 backdrop-blur-md transition-all duration-500 hover:-translate-y-0.5 hover:border-[rgba(212,175,55,0.4)] hover:shadow-[0_4px_20px_rgba(212,175,55,0.08)]"
+            aria-label="Dee-ART home"
+          >
+            <span className="pointer-events-none absolute -top-6 left-1/2 -z-10 h-12 w-24 -translate-x-1/2 rounded-full bg-[rgba(212,175,55,0.12)] blur-xl" />
+            <span className="pointer-events-none absolute inset-0 -z-10 rounded-md bg-[radial-gradient(circle_at_50%_0%,rgba(212,175,55,0.1),transparent_60%)]" />
             <LogoText size="sm" />
           </Link>
 
@@ -44,12 +50,12 @@ export function Navbar() {
                 to={link.href}
                 end={link.href === "/"}
                 className={({ isActive }) =>
-                  cn("group relative py-2 font-sans text-[14px] font-normal text-[#C4C2BA] transition-colors duration-300 ease-in-out hover:text-[#C8A96E]", isActive && "active text-[#C8A96E]")
+                  cn("group relative py-2 font-sans text-[16px] font-semibold text-[#F5F0E8] transition-colors duration-300 ease-in-out hover:text-[#D4AF37]", isActive && "active text-[#D4AF37]")
                 }
               >
                 {link.label}
-                <span className="absolute inset-x-0 -bottom-0.5 h-px origin-left scale-x-0 bg-[#C8A96E] transition-transform duration-300 ease-in-out group-hover:scale-x-100" />
-                <span className="absolute left-1/2 top-full mt-1 hidden h-1 w-1 -translate-x-1/2 rounded-full bg-[#C8A96E] group-[.active]:block" />
+                <span className="absolute inset-x-0 -bottom-0.5 h-px origin-left scale-x-0 bg-[#D4AF37] transition-transform duration-300 ease-in-out group-hover:scale-x-100" />
+                <span className="absolute left-1/2 top-full mt-1 hidden h-1 w-1 -translate-x-1/2 rounded-full bg-[#D4AF37] group-[.active]:block" />
               </NavLink>
             ))}
           </div>
@@ -83,7 +89,10 @@ export function Navbar() {
           >
             <div className="container-lux flex h-full flex-col py-6">
               <div className="flex items-center justify-between">
-                <Link to="/" className="flex items-center gap-3">
+                <Link
+                  to="/"
+                  className="logo-badge flex items-center gap-3 rounded-md border border-[rgba(212,175,55,0.2)] bg-[rgba(0,0,0,0.55)] px-3 py-1.5 backdrop-blur-md"
+                >
                   <LogoText size="sm" />
                 </Link>
                 <Button variant="secondary" size="icon" className="text-[#C8A96E]" onClick={() => setIsOpen(false)} aria-label="Close navigation menu">

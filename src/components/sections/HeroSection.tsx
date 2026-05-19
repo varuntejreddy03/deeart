@@ -47,7 +47,7 @@ export function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1.1, duration: 0.75 }}
           >
-            Transforming homes, villas and offices in Hyderabad with 20+ years of design excellence. Modern interiors. Modular precision. Your vision.
+            Transforming homes, villas and offices in Hyderabad with 12+ years of design excellence. Modern interiors. Modular precision. Your vision.
           </motion.p>
 
           <motion.div
@@ -66,15 +66,15 @@ export function HeroSection() {
           </motion.div>
 
           <motion.div
-            className="hero-stats mt-10 grid grid-cols-2 gap-3 rounded-lg border border-primary/14 bg-white/[0.045] p-3 backdrop-blur md:grid-cols-4"
+            className="hero-stats mt-10 grid grid-cols-2 gap-0 rounded-lg border border-primary/14 bg-white/[0.045] backdrop-blur md:grid-cols-4"
             initial={{ opacity: 0, y: 22 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1.5, duration: 0.65 }}
           >
             {stats.map((stat) => (
-              <div key={stat.label} className="border-white/8 px-3 py-2 md:border-r md:last:border-r-0">
+              <div key={stat.label} className="border-white/8 px-5 py-4 text-center md:border-r md:last:border-r-0">
                 <CountUp value={stat.value} suffix={stat.suffix} className="hero-stat-number block font-serif leading-none text-primary" />
-                <span className="mt-1 block max-w-full break-words text-[0.66rem] uppercase tracking-[.12em] text-[#C4C2BA] sm:text-xs sm:tracking-[.16em]">{stat.label}</span>
+                <span className="mt-2 block text-xs uppercase tracking-[.14em] text-[#C4C2BA]">{stat.label}</span>
               </div>
             ))}
           </motion.div>
@@ -105,7 +105,7 @@ export function HeroSection() {
           <div className="hero-experience-badge glass-card absolute bottom-8 right-2 rounded-lg px-5 py-4">
             <div className="flex items-center gap-2 text-primary">
               <Sparkles className="h-4 w-4" />
-              <span className="font-mono text-xs uppercase tracking-[.16em]">Since 2006</span>
+              <span className="font-mono text-xs uppercase tracking-[.16em]">Since 2015</span>
             </div>
             <p className="mt-1 font-serif text-3xl">{site.experience} Years</p>
           </div>

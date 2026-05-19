@@ -13,7 +13,7 @@ export function Footer() {
           <Link to="/" className="flex items-center gap-3">
             <LogoText size="lg" />
           </Link>
-          <p className="mt-5 max-w-sm text-sm leading-7 text-[#C4C2BA]">{site.tagline}. Premium modular interiors for homes, villas and commercial spaces in Hyderabad.</p>
+          <p className="mt-5 max-w-sm text-base leading-7 text-[#C4C2BA]">{site.tagline}. Premium modular interiors for homes, villas and commercial spaces in Hyderabad.</p>
           <div className="mt-6 flex gap-3">
             <Button asChild variant="secondary" size="icon" aria-label="Instagram">
               <a href={site.instagram} target="_blank" rel="noreferrer">
@@ -30,7 +30,7 @@ export function Footer() {
 
         <div className="hidden md:block">
           <h3 className="mb-5 font-serif text-2xl text-primary">Quick Links</h3>
-          <ul className="grid gap-3 text-sm text-[#C4C2BA]">
+          <ul className="grid gap-3 text-base text-[#C4C2BA]">
             {navLinks.map((link) => (
               <li key={link.href}>
                 <Link className="transition-colors hover:text-primary" to={link.href}>
@@ -46,7 +46,7 @@ export function Footer() {
             Quick Links
             <ChevronDown className="h-4 w-4 transition-transform duration-300" />
           </summary>
-          <ul className="grid gap-3 py-4 text-sm text-[#C4C2BA]">
+          <ul className="grid gap-3 py-4 text-base text-[#C4C2BA]">
             {navLinks.map((link) => (
               <li key={link.href}>
                 <Link className="block min-h-11 transition-colors hover:text-primary" to={link.href}>
@@ -59,7 +59,7 @@ export function Footer() {
 
         <div className="hidden md:block">
           <h3 className="mb-5 font-serif text-2xl text-primary">Services</h3>
-          <ul className="grid gap-3 text-sm text-[#C4C2BA]">
+          <ul className="grid gap-3 text-base text-[#C4C2BA]">
             {services.map((service) => (
               <li key={service.slug}>
                 <Link className="transition-colors hover:text-primary" to={`/services/${service.slug}`}>
@@ -75,7 +75,7 @@ export function Footer() {
             Services
             <ChevronDown className="h-4 w-4 transition-transform duration-300" />
           </summary>
-          <ul className="grid gap-3 py-4 text-sm text-[#C4C2BA]">
+          <ul className="grid gap-3 py-4 text-base text-[#C4C2BA]">
             {services.map((service) => (
               <li key={service.slug}>
                 <Link className="block min-h-11 transition-colors hover:text-primary" to={`/services/${service.slug}`}>
@@ -88,7 +88,7 @@ export function Footer() {
 
         <div>
           <h3 className="mb-5 font-serif text-2xl text-primary">Contact</h3>
-          <div className="space-y-4 text-sm leading-7 text-[#C4C2BA]">
+          <div className="space-y-4 text-base leading-7 text-[#C4C2BA]">
             <p className="flex gap-3">
               <MapPin className="mt-1 h-4 w-4 shrink-0 text-primary" />
               {site.address}

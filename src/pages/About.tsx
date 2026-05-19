@@ -8,7 +8,7 @@ import { Card } from "@/components/ui/Card";
 import { images } from "@/data/site";
 
 const differentiators = [
-  { icon: Award, title: "20+ Years Expertise", desc: "Long-running site and design experience across Hyderabad homes and commercial spaces." },
+  { icon: Award, title: "12+ Years Expertise", desc: "Long-running site and design experience across Hyderabad homes and commercial spaces." },
   { icon: BadgeCheck, title: "Architects & Designers", desc: "A practical team that can think through layouts, finishes, lighting and execution details." },
   { icon: Handshake, title: "Turnkey Solutions", desc: "One accountable team for concept, materials, execution, styling and handover." },
   { icon: Clock3, title: "On-Time Delivery", desc: "Milestone-led planning keeps decisions, procurement and site work moving." },
@@ -21,7 +21,7 @@ export default function About() {
     <>
       <Seo
         title="About Dee-ART Modulars and Interiors | Hyderabad Interior Designers"
-        description="Meet Dee-ART Modulars and Interiors, a Hyderabad interior design company with 20+ years of experience in modular and turnkey interiors."
+        description="Meet Dee-ART Modulars and Interiors, a Hyderabad interior design company with 12+ years of experience in modular and turnkey interiors."
         path="/about"
       />
       <PageHero
@@ -84,7 +84,7 @@ export default function About() {
                 <Card key={item.title} className="glass-card rounded-lg p-6" data-reveal>
                   <Icon className="h-7 w-7 text-primary" />
                   <h3 className="mt-5 font-serif text-3xl text-[#FDFCFA]">{item.title}</h3>
-                  <p className="mt-3 text-sm leading-7 text-[#C4C2BA]">{item.desc}</p>
+                  <p className="mt-3 text-base leading-7 text-[#C4C2BA]">{item.desc}</p>
                 </Card>
               );
             })}

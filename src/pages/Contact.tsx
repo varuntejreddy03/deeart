@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Mail, MapPin, Clock } from "lucide-react";
+import { Facebook, Instagram, Mail, MapPin } from "lucide-react";
 import { ContactForm } from "@/components/forms/ContactForm";
 import { PageHero } from "@/components/layout/PageHero";
 import { Seo } from "@/components/layout/Seo";
@@ -35,18 +35,14 @@ export default function Contact() {
               <div className="glass-card rounded-lg p-5">
                 <MapPin className="h-5 w-5 text-primary" />
                 <p className="mt-3 font-medium text-[#F5F0E8]">Address</p>
-                <p className="mt-1 text-sm leading-7 text-[#C4C2BA]">{site.address}</p>
+                <p className="mt-1 text-base leading-7 text-[#C4C2BA]">{site.address}</p>
               </div>
               <a href={`mailto:${site.email}`} className="glass-card block rounded-lg p-5 transition-colors hover:border-primary/50">
                 <Mail className="h-5 w-5 text-primary" />
                 <p className="mt-3 font-medium text-[#F5F0E8]">Email</p>
-                <p className="mt-1 break-words text-sm leading-7 text-[#C4C2BA]">{site.email}</p>
+                <p className="mt-1 break-words text-base leading-7 text-[#C4C2BA]">{site.email}</p>
               </a>
-              <div className="glass-card rounded-lg p-5">
-                <Clock className="h-5 w-5 text-primary" />
-                <p className="mt-3 font-medium text-[#F5F0E8]">Hours</p>
-                <p className="mt-1 text-sm leading-7 text-[#C4C2BA]">{site.hours}</p>
-              </div>
+
             </div>
 
             <div className="flex gap-3">

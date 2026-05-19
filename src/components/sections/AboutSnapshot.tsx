@@ -24,10 +24,10 @@ export function AboutSnapshot() {
         </div>
 
         <div className="relative" data-reveal>
-          <span className="about-watermark absolute -right-8 -top-20 font-serif text-[14rem] leading-none text-[#C8A96E]/10">20</span>
+          <span className="about-watermark absolute -right-8 -top-20 font-serif text-[14rem] leading-none text-[#C8A96E]/10">12</span>
           <p className="eyebrow relative mb-4 text-[#A88540]">Who We Are</p>
           <h2 className="heading-md relative max-w-3xl text-[#0F0E0C]" data-word-reveal>
-            Crafting Interiors With 20+ Years of Expertise
+            Crafting Interiors With 12+ Years of Expertise
           </h2>
           <div className="relative mt-6 space-y-5 text-base leading-8 text-[#4B463D]">
             <p>
@@ -41,7 +41,7 @@ export function AboutSnapshot() {
             {highlights.map((item) => (
               <div key={item} className="flex gap-3 rounded-lg border border-[#0F0E0C]/10 bg-white/45 p-4">
                 <CheckCircle2 className="mt-1 h-5 w-5 shrink-0 text-[#A88540]" />
-                <span className="text-sm font-medium leading-6 text-[#252019]">{item}</span>
+                <span className="text-base font-medium leading-6 text-[#252019]">{item}</span>
               </div>
             ))}
           </div>

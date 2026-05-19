@@ -29,7 +29,7 @@ export function ServicesGrid({ compact = false }: ServicesGridProps) {
                   <ServiceIcon icon={service.icon} className="h-6 w-6" />
                 </div>
                 <h3 className="service-title font-serif text-[24px] font-semibold leading-tight text-[#FDFCFA]">{service.name}</h3>
-                <p className="service-description mt-3 min-h-14 text-[14px] leading-[1.7] text-[#8A8880]">{compact ? service.description : service.longDescription}</p>
+                <p className="service-description mt-3 min-h-14 text-[16px] leading-[1.7] text-[#8A8880]">{compact ? service.description : service.longDescription}</p>
                 <span className="mt-6 inline-flex translate-x-[-6px] items-center gap-2 text-sm font-semibold text-[#C8A96E] opacity-90 transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100">
                   Learn More <ArrowUpRight className="h-4 w-4" />
                 </span>

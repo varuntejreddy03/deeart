@@ -47,7 +47,7 @@ export default function ServiceDetail() {
             {service.features.map((feature) => (
               <Card key={feature} className="glass-card rounded-lg p-5" data-reveal>
                 <CheckCircle2 className="h-5 w-5 text-primary" />
-                <p className="mt-4 text-sm leading-7 text-[#F5F0E8]">{feature}</p>
+                <p className="mt-4 text-base leading-7 text-[#F5F0E8]">{feature}</p>
               </Card>
             ))}
           </div>
@@ -112,7 +112,7 @@ export default function ServiceDetail() {
                 <Card className="glass-card group rounded-lg p-6 transition-transform hover:-translate-y-2">
                   <ServiceIcon icon={item.icon} className="h-6 w-6 text-primary" />
                   <h3 className="mt-5 font-serif text-3xl text-[#FDFCFA]">{item.name}</h3>
-                  <p className="mt-3 text-sm leading-7 text-[#C4C2BA]">{item.description}</p>
+                  <p className="mt-3 text-base leading-7 text-[#C4C2BA]">{item.description}</p>
                 </Card>
               </Link>
             ))}

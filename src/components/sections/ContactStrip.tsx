@@ -18,7 +18,7 @@ export function ContactStrip() {
               <Icon className="mt-1 h-5 w-5 shrink-0 text-primary" />
               <div>
                 <p className="font-mono text-xs uppercase tracking-[.16em] text-primary">{item.label}</p>
-                <p className="mt-1 text-sm leading-6 text-[#F5F0E8]">{item.value}</p>
+                <p className="mt-1 text-base leading-6 text-[#F5F0E8]">{item.value}</p>
               </div>
             </div>
           );

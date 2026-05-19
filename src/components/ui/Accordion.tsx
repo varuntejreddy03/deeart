@@ -26,7 +26,7 @@ export function AccordionTrigger({ className, children, ...props }: AccordionPri
 
 export function AccordionContent({ className, children, ...props }: AccordionPrimitive.AccordionContentProps) {
   return (
-    <AccordionPrimitive.Content className="overflow-hidden text-sm text-[#C4C2BA] data-[state=closed]:animate-none data-[state=open]:animate-none" {...props}>
+    <AccordionPrimitive.Content className="overflow-hidden text-base text-[#C4C2BA] data-[state=closed]:animate-none data-[state=open]:animate-none" {...props}>
       <div className={cn("pb-5 leading-7", className)}>{children}</div>
     </AccordionPrimitive.Content>
   );

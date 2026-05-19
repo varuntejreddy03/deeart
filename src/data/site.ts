@@ -8,7 +8,7 @@ export const site = {
   instagram: "https://www.instagram.com/deeartmodularsandinteriors/",
   instagramHandle: "deeartmodularsandinteriors",
   facebook: "https://www.facebook.com/profile.php?id=61589454552364",
-  experience: "20+",
+  experience: "12+",
   whatsappNumber: "91XXXXXXXXXX",
   coordinates: {
     latitude: 17.4401,
@@ -25,10 +25,10 @@ export const navLinks = [
 ];
 
 export const stats = [
-  { value: 20, suffix: "+", label: "Years" },
-  { value: 500, suffix: "+", label: "Projects" },
-  { value: 100, suffix: "%", label: "Satisfaction" },
-  { value: 9, suffix: "", label: "Service Categories" }
+  { value: 12, suffix: "+", label: "Years" },
+  { value: 200, suffix: "+", label: "Projects" },
+  { value: 100, suffix: "%", label: "Happy Clients" },
+  { value: 9, suffix: "", label: "Services" }
 ];
 
 export const images = {

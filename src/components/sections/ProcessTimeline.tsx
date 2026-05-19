@@ -117,7 +117,7 @@ export function ProcessTimeline({ detailed = false }: { detailed?: boolean }) {
                   <div className="timeline-card glass-card rounded-lg p-6 lg:mt-8">
                     <span className="font-mono text-xs uppercase tracking-[.18em] text-primary">0{index + 1} · {step.label}</span>
                     <h3 className="mt-4 font-serif text-3xl text-[#FDFCFA]">{step.title}</h3>
-                    <p className="mt-3 text-sm leading-7 text-[#C4C2BA]">{step.desc}</p>
+                    <p className="mt-3 text-base leading-7 text-[#C4C2BA]">{step.desc}</p>
                     {detailed ? <p className="mt-4 text-xs uppercase tracking-[.16em] text-[#8F8A80]">Milestone tracked with clear approvals</p> : null}
                   </div>
                 </article>
