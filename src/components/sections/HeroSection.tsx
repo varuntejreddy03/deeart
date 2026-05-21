@@ -26,7 +26,7 @@ export function HeroSection() {
       <div className="hero-grid container-lux grid min-h-[calc(92svh-72px)] items-center gap-12 pb-16 lg:grid-cols-[1.08fr_.92fr]">
         <div className="relative z-10">
           <motion.p
-            className="eyebrow mb-5"
+            className="eyebrow mb-5 text-base font-semibold"
             initial={{ opacity: 0, y: 18 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 0.7 }}

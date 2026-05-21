@@ -35,11 +35,9 @@ export function Navbar() {
         <nav className="container-lux flex h-full items-center justify-between gap-6">
           <Link
             to="/"
-            className="logo-badge group relative flex items-center gap-3 rounded-md border border-[rgba(212,175,55,0.2)] bg-[rgba(0,0,0,0.55)] px-3.5 py-2 backdrop-blur-md transition-all duration-500 hover:-translate-y-0.5 hover:border-[rgba(212,175,55,0.4)] hover:shadow-[0_4px_20px_rgba(212,175,55,0.08)]"
+            className="group flex items-center gap-3"
             aria-label="Dee-ART home"
           >
-            <span className="pointer-events-none absolute -top-6 left-1/2 -z-10 h-12 w-24 -translate-x-1/2 rounded-full bg-[rgba(212,175,55,0.12)] blur-xl" />
-            <span className="pointer-events-none absolute inset-0 -z-10 rounded-md bg-[radial-gradient(circle_at_50%_0%,rgba(212,175,55,0.1),transparent_60%)]" />
             <LogoText size="sm" />
           </Link>
 
@@ -91,7 +89,7 @@ export function Navbar() {
               <div className="flex items-center justify-between">
                 <Link
                   to="/"
-                  className="logo-badge flex items-center gap-3 rounded-md border border-[rgba(212,175,55,0.2)] bg-[rgba(0,0,0,0.55)] px-3 py-1.5 backdrop-blur-md"
+                  className="flex items-center gap-3"
                 >
                   <LogoText size="sm" />
                 </Link>
